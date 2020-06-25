@@ -7,8 +7,45 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	</head>
 	<body>
+		
+		<!-- header CCE-->
+		<div class="header_cce">
+			<div class="fondo-azul">
+				<div class="container">
+					<nav class="navbar navbar-expand-lg navbar-light p-0">
+						<div class="logoGov"><a href="https://www.gov.co/" target="_blank"><img alt="Logo colombia compra" class="img-fluid logovco" src="img/logo_govco.png" style="max-width: 150px;"></a>
+						</div>
+						<p><button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"></button></p>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item active"><a class="nav-link blanco" href="https://cce.woobsing.co/" target="_blank">Inicio<span class="sr-only">(current)</span></a></li>
+								<li class="nav-item"><a class="nav-link blanco" href="/transparencia/gestion-documental/datos-abiertos" target="_blank"><b>•</b> &nbsp; &nbsp;Datos abiertos</a></li>
+								<li class="nav-item"><a class="nav-link blanco" href="http://poxta2.colombiacompra.gov.co:81/Pqr.aspx" target="_blank"><b>•</b> &nbsp; &nbsp;PQR</a></li>
+								<li class="nav-item"><a class="nav-link blanco" href="/ciudadanos/preguntas-frecuentes/secop-ii" target="_blank"><b>•</b> &nbsp; &nbsp;FAQ</a></li>
+								<li class="nav-item"><a class="nav-link search-button text-white" href="#"><i class="material-icons">search</i></a></li>
+								<li class="nav-item"><a class="nav-link blanco" href="#" style="text-transform: uppercase; text-decoration: underline;">EN</a></li>
+								<li class="nav-item"><label class="switchX" style="width: 100%;"><input class="coupon_question" onchange="valueChanged()" type="checkbox"><span class="sliderX round"><span class="fuenteA">A+/-</span></span></label></li>
+							</ul>
+					
+							<div class="search-bar d-flex bg-white position-absolute w-100 h-100" style=" margin-top: 0.2rem !important; overflow: hidden; max-width:0px; max-height: 40px; transition: all 0.2s ease-in-out; opacity: 0;"><a class="search-back text-dark d-flex align-items-center text-decoration-none" href="#"><i class="material-icons px-3">arrow_back</i> </a> <input class="form-control border-0 rounded-0 w-70 h-100" id="textBoxEl" placeholder="Buscar" type="text"><button class="btn btn-primary btn-sm buscar" id="buscarHead" name="submit" type="submit">Enviar</button>
+							</div>
+						</div>
+						<p></p>
+					</nav>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row mt-3 mb-4 pb-4">
+					<div class="col-6 col-md-3 mr-auto"><a href="https://cce.woobsing.co"><img id="logocce" src="img/logocce.png" style="height: 45px;"></a></div>
+					<div class="col-6 col-md-3 ml-auto"><a href="https://www.dnp.gov.co/" target="_blank"><img class="float-right" id="logodnp" src="img/logodnp.jpg" style="width: 200px;"></a></div>
+				</div>
+			</div>
+  		</div>
+		<!-- termina hedar CCE-->
+		
 		<div class="container mt-4 mb-2">
 			<div class="row">
 				<div class="col-12">
@@ -29,6 +66,19 @@
 		</div>
 		
 		<main>
+			
+			<ul id="tc_year_selector">
+				<li><a href=""><b></b> 2020</a></li>
+				<li class="current"><a href=""><b></b> 2019</a></li>
+				<li><a href=""><b></b> 2018</a></li>
+				<li><a href=""><b></b> 2017</a></li>
+				<li><a href=""><b></b> 2016</a></li>
+				<li><a href=""><b></b> 2015</a></li>
+				<li><a href=""><b></b> 2014</a></li>
+				<li><a href=""><b></b> 2013</a></li>
+				<li><a href=""><b></b> 2012</a></li>
+				<li><a href=""><b></b> 2011</a></li>
+			</ul>
 			<!--header-->
 			<section>
 			<div class="container">
@@ -174,7 +224,7 @@
 			<div class="tc_footer">
 				<div class="container foot pt-4">
 					<div class="fila">
-						<div class="col-12 col-md-2 bd"><img class="img-fluid" src="img/Logo%20govco.png"></div>
+						<div class="col-12 col-md-2 bd"><img class="img-fluid" src="img/logo_govco.png"></div>
 						<div class="col-12 col-md-6 py-4 bd">
 							<h5 class="blanco ">Colombia Compra Eficiente</h5>
 							<p class="blanco small">Carrera 7 No 26 - 20 Piso 23 / Dirección General / Edificio Seguros Tequendama (Bogotá D.C)<br>
@@ -203,8 +253,35 @@
 					</div>
 				</div>
 			</div>
+			<div class="support">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<p class="text-center">Con el apoyo de</p>
+						</div>
+						<div class="col-sm-6">
+							<p class="text-center">
+								<a href="https://gobiernofacil.com" class="embajada_logo">Embajada Británica Colombia</a>
+							</p>
+						</div>
+						<div class="col-sm-6">
+							<p class="text-center">
+								<a href="https://www.open-contracting.org/" class="ocp_logo">Open Contracting Partnership</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="author">
-				<p class="text-center">Forjado artesanalmente por</p>
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<p class="text-center">Forjado artesanalmente por<br>
+								<a href="https://gobiernofacil.com" class="gobiernofacil">Gobierno Fácil</a>
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 			
 		</footer>
